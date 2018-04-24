@@ -21,6 +21,12 @@ class RegistrationViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    @IBAction func registerClick(_ sender: Any) {
+        let alert = UIAlertController(title: "Alert", message: "Register clicked", preferredStyle: UIAlertControllerStyle.alert)
+        alert.addAction(UIAlertAction(title: "Click", style: UIAlertActionStyle.default, handler: nil))
+        self.present(alert, animated: true, completion: nil)
+
+    }
 
     /*
     // MARK: - Navigation

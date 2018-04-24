@@ -1,0 +1,6 @@
+framework module Pods_JWTClient {
+  umbrella header "Pods-JWTClient-umbrella.h"
+
+  export *
+  module * { export * }
+}
