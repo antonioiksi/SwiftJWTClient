@@ -1,0 +1,553 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A975B524208FB7D90061A542 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A975B523208FB7D90061A542 /* AppDelegate.swift */; };
+		A975B526208FB7D90061A542 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A975B525208FB7D90061A542 /* ViewController.swift */; };
+		A975B529208FB7D90061A542 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A975B527208FB7D90061A542 /* Main.storyboard */; };
+		A975B52C208FB7D90061A542 /* JWTClient.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A975B52A208FB7D90061A542 /* JWTClient.xcdatamodeld */; };
+		A975B52E208FB7D90061A542 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A975B52D208FB7D90061A542 /* Assets.xcassets */; };
+		A975B531208FB7D90061A542 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A975B52F208FB7D90061A542 /* LaunchScreen.storyboard */; };
+		A975B53C208FB7D90061A542 /* JWTClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A975B53B208FB7D90061A542 /* JWTClientTests.swift */; };
+		A975B547208FB7D90061A542 /* JWTClientUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A975B546208FB7D90061A542 /* JWTClientUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A975B538208FB7D90061A542 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A975B518208FB7D90061A542 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A975B51F208FB7D90061A542;
+			remoteInfo = JWTClient;
+		};
+		A975B543208FB7D90061A542 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A975B518208FB7D90061A542 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A975B51F208FB7D90061A542;
+			remoteInfo = JWTClient;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A975B520208FB7D90061A542 /* JWTClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JWTClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A975B523208FB7D90061A542 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A975B525208FB7D90061A542 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A975B528208FB7D90061A542 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A975B52B208FB7D90061A542 /* JWTClient.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = JWTClient.xcdatamodel; sourceTree = "<group>"; };
+		A975B52D208FB7D90061A542 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A975B530208FB7D90061A542 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A975B532208FB7D90061A542 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A975B537208FB7D90061A542 /* JWTClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JWTClientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A975B53B208FB7D90061A542 /* JWTClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JWTClientTests.swift; sourceTree = "<group>"; };
+		A975B53D208FB7D90061A542 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A975B542208FB7D90061A542 /* JWTClientUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JWTClientUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A975B546208FB7D90061A542 /* JWTClientUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JWTClientUITests.swift; sourceTree = "<group>"; };
+		A975B548208FB7D90061A542 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A975B51D208FB7D90061A542 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A975B534208FB7D90061A542 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A975B53F208FB7D90061A542 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A975B517208FB7D90061A542 = {
+			isa = PBXGroup;
+			children = (
+				A975B522208FB7D90061A542 /* JWTClient */,
+				A975B53A208FB7D90061A542 /* JWTClientTests */,
+				A975B545208FB7D90061A542 /* JWTClientUITests */,
+				A975B521208FB7D90061A542 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A975B521208FB7D90061A542 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A975B520208FB7D90061A542 /* JWTClient.app */,
+				A975B537208FB7D90061A542 /* JWTClientTests.xctest */,
+				A975B542208FB7D90061A542 /* JWTClientUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A975B522208FB7D90061A542 /* JWTClient */ = {
+			isa = PBXGroup;
+			children = (
+				A975B523208FB7D90061A542 /* AppDelegate.swift */,
+				A975B525208FB7D90061A542 /* ViewController.swift */,
+				A975B527208FB7D90061A542 /* Main.storyboard */,
+				A975B52D208FB7D90061A542 /* Assets.xcassets */,
+				A975B52F208FB7D90061A542 /* LaunchScreen.storyboard */,
+				A975B532208FB7D90061A542 /* Info.plist */,
+				A975B52A208FB7D90061A542 /* JWTClient.xcdatamodeld */,
+			);
+			path = JWTClient;
+			sourceTree = "<group>";
+		};
+		A975B53A208FB7D90061A542 /* JWTClientTests */ = {
+			isa = PBXGroup;
+			children = (
+				A975B53B208FB7D90061A542 /* JWTClientTests.swift */,
+				A975B53D208FB7D90061A542 /* Info.plist */,
+			);
+			path = JWTClientTests;
+			sourceTree = "<group>";
+		};
+		A975B545208FB7D90061A542 /* JWTClientUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A975B546208FB7D90061A542 /* JWTClientUITests.swift */,
+				A975B548208FB7D90061A542 /* Info.plist */,
+			);
+			path = JWTClientUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A975B51F208FB7D90061A542 /* JWTClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A975B54B208FB7D90061A542 /* Build configuration list for PBXNativeTarget "JWTClient" */;
+			buildPhases = (
+				A975B51C208FB7D90061A542 /* Sources */,
+				A975B51D208FB7D90061A542 /* Frameworks */,
+				A975B51E208FB7D90061A542 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JWTClient;
+			productName = JWTClient;
+			productReference = A975B520208FB7D90061A542 /* JWTClient.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A975B536208FB7D90061A542 /* JWTClientTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A975B54E208FB7D90061A542 /* Build configuration list for PBXNativeTarget "JWTClientTests" */;
+			buildPhases = (
+				A975B533208FB7D90061A542 /* Sources */,
+				A975B534208FB7D90061A542 /* Frameworks */,
+				A975B535208FB7D90061A542 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A975B539208FB7D90061A542 /* PBXTargetDependency */,
+			);
+			name = JWTClientTests;
+			productName = JWTClientTests;
+			productReference = A975B537208FB7D90061A542 /* JWTClientTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A975B541208FB7D90061A542 /* JWTClientUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A975B551208FB7D90061A542 /* Build configuration list for PBXNativeTarget "JWTClientUITests" */;
+			buildPhases = (
+				A975B53E208FB7D90061A542 /* Sources */,
+				A975B53F208FB7D90061A542 /* Frameworks */,
+				A975B540208FB7D90061A542 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A975B544208FB7D90061A542 /* PBXTargetDependency */,
+			);
+			name = JWTClientUITests;
+			productName = JWTClientUITests;
+			productReference = A975B542208FB7D90061A542 /* JWTClientUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A975B518208FB7D90061A542 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				TargetAttributes = {
+					A975B51F208FB7D90061A542 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = M53P34VP8Q;
+						ProvisioningStyle = Automatic;
+					};
+					A975B536208FB7D90061A542 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = M53P34VP8Q;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A975B51F208FB7D90061A542;
+					};
+					A975B541208FB7D90061A542 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = M53P34VP8Q;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A975B51F208FB7D90061A542;
+					};
+				};
+			};
+			buildConfigurationList = A975B51B208FB7D90061A542 /* Build configuration list for PBXProject "JWTClient" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A975B517208FB7D90061A542;
+			productRefGroup = A975B521208FB7D90061A542 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A975B51F208FB7D90061A542 /* JWTClient */,
+				A975B536208FB7D90061A542 /* JWTClientTests */,
+				A975B541208FB7D90061A542 /* JWTClientUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A975B51E208FB7D90061A542 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A975B531208FB7D90061A542 /* LaunchScreen.storyboard in Resources */,
+				A975B52E208FB7D90061A542 /* Assets.xcassets in Resources */,
+				A975B529208FB7D90061A542 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A975B535208FB7D90061A542 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A975B540208FB7D90061A542 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A975B51C208FB7D90061A542 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A975B526208FB7D90061A542 /* ViewController.swift in Sources */,
+				A975B52C208FB7D90061A542 /* JWTClient.xcdatamodeld in Sources */,
+				A975B524208FB7D90061A542 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A975B533208FB7D90061A542 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A975B53C208FB7D90061A542 /* JWTClientTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A975B53E208FB7D90061A542 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A975B547208FB7D90061A542 /* JWTClientUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A975B539208FB7D90061A542 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A975B51F208FB7D90061A542 /* JWTClient */;
+			targetProxy = A975B538208FB7D90061A542 /* PBXContainerItemProxy */;
+		};
+		A975B544208FB7D90061A542 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A975B51F208FB7D90061A542 /* JWTClient */;
+			targetProxy = A975B543208FB7D90061A542 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A975B527208FB7D90061A542 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A975B528208FB7D90061A542 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A975B52F208FB7D90061A542 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A975B530208FB7D90061A542 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A975B549208FB7D90061A542 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A975B54A208FB7D90061A542 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A975B54C208FB7D90061A542 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = M53P34VP8Q;
+				INFOPLIST_FILE = JWTClient/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.antonioiksi.JWTClient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A975B54D208FB7D90061A542 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = M53P34VP8Q;
+				INFOPLIST_FILE = JWTClient/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.antonioiksi.JWTClient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		A975B54F208FB7D90061A542 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = M53P34VP8Q;
+				INFOPLIST_FILE = JWTClientTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.antonioiksi.JWTClientTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JWTClient.app/JWTClient";
+			};
+			name = Debug;
+		};
+		A975B550208FB7D90061A542 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = M53P34VP8Q;
+				INFOPLIST_FILE = JWTClientTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.antonioiksi.JWTClientTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JWTClient.app/JWTClient";
+			};
+			name = Release;
+		};
+		A975B552208FB7D90061A542 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = M53P34VP8Q;
+				INFOPLIST_FILE = JWTClientUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.antonioiksi.JWTClientUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = JWTClient;
+			};
+			name = Debug;
+		};
+		A975B553208FB7D90061A542 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = M53P34VP8Q;
+				INFOPLIST_FILE = JWTClientUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.antonioiksi.JWTClientUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = JWTClient;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A975B51B208FB7D90061A542 /* Build configuration list for PBXProject "JWTClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A975B549208FB7D90061A542 /* Debug */,
+				A975B54A208FB7D90061A542 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A975B54B208FB7D90061A542 /* Build configuration list for PBXNativeTarget "JWTClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A975B54C208FB7D90061A542 /* Debug */,
+				A975B54D208FB7D90061A542 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A975B54E208FB7D90061A542 /* Build configuration list for PBXNativeTarget "JWTClientTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A975B54F208FB7D90061A542 /* Debug */,
+				A975B550208FB7D90061A542 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A975B551208FB7D90061A542 /* Build configuration list for PBXNativeTarget "JWTClientUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A975B552208FB7D90061A542 /* Debug */,
+				A975B553208FB7D90061A542 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A975B52A208FB7D90061A542 /* JWTClient.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A975B52B208FB7D90061A542 /* JWTClient.xcdatamodel */,
+			);
+			currentVersion = A975B52B208FB7D90061A542 /* JWTClient.xcdatamodel */;
+			path = JWTClient.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A975B518208FB7D90061A542 /* Project object */;
+}
