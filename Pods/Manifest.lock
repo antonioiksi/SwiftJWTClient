@@ -1,16 +1,20 @@
 PODS:
   - Alamofire (4.4.0)
+  - Log4swift (1.0.1)
 
 DEPENDENCIES:
   - Alamofire (= 4.4.0)
+  - Log4swift (= 1.0.1)
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - Alamofire
+    - Log4swift
 
 SPEC CHECKSUMS:
   Alamofire: dc44b1600b800eb63da6a19039a0083d62a6a62d
+  Log4swift: 693bfbafbe99ec7925771373e083aa816db25fc9
 
-PODFILE CHECKSUM: 6d158d9397552778536922a8bf8ecc593ab10542
+PODFILE CHECKSUM: 11445b4db73dd1a040a94a3cefb4f0d70f0b9348
 
 COCOAPODS: 1.5.0

@@ -8,6 +8,10 @@
 
 import UIKit
 import CoreData
+import Log4swift
+import Foundation
+
+
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,6 +20,53 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+
+        //let value = Bundle.init(for: AppDelegate.self).infoDictionary?["your plist key name"] as? Any
+
+        var myDictionaryPath = Bundle.main.path(forResource: "my", ofType: "plist")
+        
+        var myDictionary = NSMutableDictionary(contentsOfFile: myDictionaryPath!)
+        let myStringDict = myDictionary as? [String:AnyObject]
+        let log4SwiftPath = myStringDict?["Log4SwiftPath"]
+        
+        
+        
+        // Create formatters
+        // PatternFormater init can throw an error if the pattern is not valid. Those errors are not handled in that example (but it should be in your code ;-) )
+        let rootFormatter = try! PatternFormatter(identifier:"rootFormatter", pattern: "[Root formatter][%l] - %m")
+        let consoleFormatter = try! PatternFormatter(identifier:"consoleFormatter", pattern: "[%n][%l] - %m")
+        let fileFormatter = try! PatternFormatter(identifier:"fileFormatter", pattern: "[%d][%n] - %m")
+        
+        // Create appenders
+        let stdOutAppender = StdOutAppender("stdOutAppender")
+        stdOutAppender.formatter = consoleFormatter
+        
+        /*
+        let documentDirectory = try! FileManager.default.url(for: .documentDirectory, in: .userDomainMask, appropriateFor: nil, create: false)
+        var dateFormatter = DateFormatter()
+        dateFormatter.dateStyle = .long
+        dateFormatter.timeStyle = .short
+        let date = dateFormatter.string(from: Date())
+        let saveURL = documentDirectory.appendingPathComponent("log4swift-\(date).log")
+        let writePath = NSURL(fileURLWithPath: NSTemporaryDirectory()).appendingPathComponent("log4swift.log")
+        */
+        //print(#file)
+        
+        let fileAppender = FileAppender(identifier: "fileAppender", filePath: "\(log4SwiftPath)log4swift.log")
+        //errorFileAppender.thresholdLevel = .Debug
+        fileAppender.formatter = fileFormatter
+        
+        // Create loggers
+        let rootLogger = LoggerFactory.sharedInstance.rootLogger
+        //rootLogger.thresholdLevel = .Warning
+        rootLogger.appenders[0].formatter = rootFormatter
+        rootLogger.appenders.removeAll()
+        rootLogger.appenders = [stdOutAppender, fileAppender]
+
+        
+        //try! LoggerFactory.sharedInstance.registerLogger(errorFileAppender)
+        
+        Logger.debug("Delay Launch screen for 3 seconds")
         Thread.sleep(forTimeInterval: 3.0)
         // Override point for customization after application launch.
         return true

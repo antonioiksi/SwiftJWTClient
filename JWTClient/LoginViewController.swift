@@ -35,7 +35,8 @@ class LoginViewController: UIViewController {
             "username" : self.username.text!,
             "password" : self.password.text!,
             ]
-        Alamofire.request("http://172.16.110.1:5000/auth", method: .post, parameters: parameters, encoding: JSONEncoding.default)
+        let url = GlobalVariables.sharedManager.getBaseUrl() + "auth"
+        Alamofire.request(url, method: .post, parameters: parameters, encoding: JSONEncoding.default)
             .responseJSON {
                 [weak self] response in
                 

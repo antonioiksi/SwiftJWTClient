@@ -9,6 +9,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Log4swift.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-JWTClient.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -27,7 +32,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>146E3208E971BCC3A2697ACAF286DB1B</key>
+		<key>17A8C0D55CFD82834547329B5EC9DB5C</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -38,6 +43,11 @@
 			<true/>
 		</dict>
 		<key>88E9EC28B8B46C3631E6B242B50F4442</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E2A8122789FEFC58B872630C7E6E26F5</key>
 		<dict>
 			<key>primary</key>
 			<true/>
