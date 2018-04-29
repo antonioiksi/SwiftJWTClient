@@ -15,10 +15,7 @@ class GlobalVariables {
     }
     
     // These are the properties you can store in your singleton
-    private var base_url: String {
-        set { self.base_url = newValue }
-        get { return self.base_url }
-    }
+    private var base_url: String = ""
 
 
     
