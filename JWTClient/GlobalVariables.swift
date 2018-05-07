@@ -11,7 +11,7 @@ import Foundation
 class GlobalVariables {
     
     init() {
-        self.base_url = "http://172.20.10.5:5000/"
+        self.base_url = "http://192.168.1.72:5000/" // DO NOT FORGET TRAILING SLASH
     }
     
     // These are the properties you can store in your singleton

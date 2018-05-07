@@ -23,9 +23,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
         //let value = Bundle.init(for: AppDelegate.self).infoDictionary?["your plist key name"] as? Any
 
-        var myDictionaryPath = Bundle.main.path(forResource: "my", ofType: "plist")
+        let myDictionaryPath = Bundle.main.path(forResource: "my", ofType: "plist")
         
-        var myDictionary = NSMutableDictionary(contentsOfFile: myDictionaryPath!)
+        let myDictionary = NSMutableDictionary(contentsOfFile: myDictionaryPath!)
         let myStringDict = myDictionary as? [String:AnyObject]
         let log4SwiftPath = myStringDict?["Log4SwiftPath"]
         
@@ -52,7 +52,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         */
         //print(#file)
         
-        let fileAppender = FileAppender(identifier: "fileAppender", filePath: "\(log4SwiftPath)log4swift.log")
+        let fileAppender = FileAppender(identifier: "fileAppender", filePath: "\(String(describing: log4SwiftPath))log4swift.log")
         //errorFileAppender.thresholdLevel = .Debug
         fileAppender.formatter = fileFormatter
         
@@ -66,8 +66,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         //try! LoggerFactory.sharedInstance.registerLogger(errorFileAppender)
         
-        Logger.debug("Delay Launch screen for 3 seconds")
-        Thread.sleep(forTimeInterval: 3.0)
+        Logger.debug("Delay Launch screen for 1 seconds")
+        Thread.sleep(forTimeInterval: 1.0)
         // Override point for customization after application launch.
         return true
     }

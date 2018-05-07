@@ -130,7 +130,7 @@
 		614D2A469484DBA5E37D1438157FB470 /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
 		6264838AE201CB842B3D270A535EC408 /* NSLogAppender.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSLogAppender.swift; path = Log4swift/Appenders/NSLogAppender.swift; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		6CFEF571B470EE8BD3F25B5E1715BEAD /* Pods_JWTClientTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JWTClientTests.framework; path = "Pods-JWTClientTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CFEF571B470EE8BD3F25B5E1715BEAD /* Pods_JWTClientTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JWTClientTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DFF3D223CEB52C394EB4548A0BEF354 /* log4swift.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = log4swift.h; path = Log4swift/log4swift.h; sourceTree = "<group>"; };
 		7496DC3160BDEC38EF04C887FB2F977F /* Pods-JWTClientUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JWTClientUITests.modulemap"; sourceTree = "<group>"; };
 		795995B2A00EA38B09721033BA03A97F /* ASLWrapper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ASLWrapper.h; path = "Log4swift/Objective-c wrappers/ASLWrapper.h"; sourceTree = "<group>"; };
@@ -141,10 +141,10 @@
 		85EE6108AA6153E47B726F4518542117 /* Formatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Formatter.swift; path = Log4swift/Formatters/Formatter.swift; sourceTree = "<group>"; };
 		8A52707313DFA131476383AF482074F6 /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Alamofire.modulemap; sourceTree = "<group>"; };
 		8CDFB163C1B7E9C34808C861C65B342E /* Log4swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Log4swift-umbrella.h"; sourceTree = "<group>"; };
-		8FE752B528225F5A6A2AAFBDC332832D /* Pods_JWTClientUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JWTClientUITests.framework; path = "Pods-JWTClientUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FE752B528225F5A6A2AAFBDC332832D /* Pods_JWTClientUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JWTClientUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		901EE4727DC93B918A5EE3643B92EBAC /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
 		909DE79B03ED6090589A0C08275FB6D8 /* Pods-JWTClient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JWTClient.debug.xcconfig"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		98C524DFF4178FE75AE8FE6E3F51E8F2 /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
 		9BC79E8919DCAF96DBDBE27CB94B8A50 /* Pods-JWTClient-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JWTClient-dummy.m"; sourceTree = "<group>"; };
 		9CF32076AF9BDA1913677E1F0FB66A97 /* Pods-JWTClientUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JWTClientUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -160,7 +160,7 @@
 		A42561207FECC41A57E14D4DF7B36A7C /* Logger+objectiveC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Logger+objectiveC.swift"; path = "Log4swift/Logger+objectiveC.swift"; sourceTree = "<group>"; };
 		AAFC352A772FAB7DF686482C52B2AA8A /* Log4swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Log4swift.modulemap; sourceTree = "<group>"; };
 		AD1F1E580FD4150B72B151F28E27573B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AEBE8F4765000AE16C9A372702206F76 /* Pods_JWTClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JWTClient.framework; path = "Pods-JWTClient.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEBE8F4765000AE16C9A372702206F76 /* Pods_JWTClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JWTClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFD935571C817BF3FA6795346FB8B486 /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
 		B191C15A5D1B4E39556230E42F3F2866 /* LoggerClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LoggerClient.m; path = "Third parties/NSLogger/LoggerClient.m"; sourceTree = "<group>"; };
 		B26E37DD6496F9ECA466A09F0729A98C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -169,7 +169,7 @@
 		B9819A063362268C4AC664CCDC8117F9 /* TaskDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TaskDelegate.swift; path = Source/TaskDelegate.swift; sourceTree = "<group>"; };
 		BE3F79EADF3EE9C35D303182D81008EB /* Pods-JWTClientTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JWTClientTests.modulemap"; sourceTree = "<group>"; };
 		C05430172C63BA0F271E2B73F7C94901 /* FileObserver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FileObserver.swift; path = Log4swift/Utilities/FileObserver.swift; sourceTree = "<group>"; };
-		C1A23AA430211460B9CCE3912FAA12E8 /* Log4swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Log4swift.framework; path = Log4swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1A23AA430211460B9CCE3912FAA12E8 /* Log4swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Log4swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C248AE773622A35F40F7EF61BAED6E5B /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
 		C387223506DC134432873C3772FC4F35 /* NSLoggerAppender.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSLoggerAppender.swift; path = Log4swift/Appenders/NSLoggerAppender.swift; sourceTree = "<group>"; };
 		C85BE5D920549F2438D0A4F9C27CE197 /* LogInformation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LogInformation.swift; path = Log4swift/LogInformation.swift; sourceTree = "<group>"; };
@@ -184,7 +184,7 @@
 		DEBCC29707BFB7EA6A4ADABAF6C44F70 /* Bool+utilities.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Bool+utilities.swift"; path = "Log4swift/Utilities/Bool+utilities.swift"; sourceTree = "<group>"; };
 		DFAFE31F686F79C27EDD8992466BEA22 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
 		E1064F09D6EB030D4329E015D8FC5272 /* StdOutAppender.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StdOutAppender.swift; path = Log4swift/Appenders/StdOutAppender.swift; sourceTree = "<group>"; };
-		E2E61E3D02A5D65009784FC504CD70FA /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2E61E3D02A5D65009784FC504CD70FA /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5FCD0DE210E4949B0ABDA29099EBA69 /* Pods-JWTClientTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JWTClientTests.debug.xcconfig"; sourceTree = "<group>"; };
 		EDF6A819A31FC1698300DE1B0CFC1A8D /* Pods-JWTClientTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JWTClientTests-frameworks.sh"; sourceTree = "<group>"; };
 		F1B00FAF99F9435B713707CC9B17187C /* FileAppender.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FileAppender.swift; path = Log4swift/Appenders/FileAppender.swift; sourceTree = "<group>"; };
@@ -319,7 +319,6 @@
 				FFE5F76493AE238AB477689F71940F6C /* Validation.swift */,
 				18B1DF572ED892BE27E67D7B0A12BB18 /* Support Files */,
 			);
-			name = Alamofire;
 			path = Alamofire;
 			sourceTree = "<group>";
 		};
@@ -366,7 +365,6 @@
 				06891201D390126DB57CDBF20EAA426A /* String+utilities.swift */,
 				3D62F424CD3BD5C65E327CA7BB4C6C69 /* Support Files */,
 			);
-			name = Log4swift;
 			path = Log4swift;
 			sourceTree = "<group>";
 		};
@@ -588,7 +586,15 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastUpgradeCheck = 0920;
+				TargetAttributes = {
+					88E9EC28B8B46C3631E6B242B50F4442 = {
+						LastSwiftMigration = 0920;
+					};
+					E2A8122789FEFC58B872630C7E6E26F5 = {
+						LastSwiftMigration = 0920;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -818,7 +824,8 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -919,7 +926,8 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -951,7 +959,8 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1013,6 +1022,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
@@ -1042,7 +1052,8 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
