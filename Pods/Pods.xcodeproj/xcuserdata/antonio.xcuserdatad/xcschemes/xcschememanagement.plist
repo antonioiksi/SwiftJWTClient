@@ -7,7 +7,7 @@
 		<key>Alamofire.xcscheme</key>
 		<dict>
 			<key>isShown</key>
-			<false/>
+			<true/>
 		</dict>
 		<key>Log4swift.xcscheme</key>
 		<dict>
